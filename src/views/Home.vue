@@ -58,7 +58,7 @@
               </p>
               <el-divider></el-divider>
               <p class="research">
-                2021 Access Computing Summer Program | University of Washington, Tsinghua University, Microsoft
+                2021 Access Computing Summer Program | University of Washington & Tsinghua University & Microsoft
               </p>
               <p class="research-time">
                 June 2021 -- September 2021
