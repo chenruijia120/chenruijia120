@@ -51,7 +51,7 @@
             </h5>
             <el-card class="box-card" style="margin-left: 50px;margin-right: 100px;">
               <p class="research">
-                2022 Mitacs Globalink Research Internship | Mitacs, Canada & University of British Columbia, Okanagan
+                2022 Mitacs Globalink Research Internship | Mitacs & University of British Columbia, Okanagan
               </p>
               <p class="research-time">
                 June 2022 -- September 2022
