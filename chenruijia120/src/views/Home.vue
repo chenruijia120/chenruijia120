@@ -110,7 +110,7 @@
             <el-card class="box-card">
               <p class="project-title">Cognitive Load Analysis in Target Selection</p>
               <el-col>
-                <p class="project-conference">In Submission</p>
+                <p class="project-conference">In Revision</p>
                 <!-- <div style="margin-top:40px ;"></div> -->
                 <p class="project-content">
                   Fitts' Law is the most robust and successful behavioral model capturing the quantitative relationship between target selection time and target width and distance. We propose extending Fitts' Law by considering users' cognitive load as a human factor in target selection tasks. 
@@ -165,7 +165,7 @@
       handleClick(tab, event) {
         console.log(tab.name, event);
         if(tab.name=='third'){
-          window.open("https://drive.google.com/file/d/1ZNpqcybm0ZdynIJbxDvCCWAYZIQu5hHD/view?usp=sharing", '_blank');
+          window.open("https://drive.google.com/file/d/1ZNpqcybm0ZdynIJbxDvCCWAYZIQu5hHD/view?usp=share_link", '_blank');
           
           this.$set(this.activeNames, 'activeName', this.activeNames.lastActiveName);
           this.activeNames = Object.assign({}, this.activeNames, {
