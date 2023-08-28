@@ -23,7 +23,7 @@
                     </a>
                 </el-row>
               </el-col>
-              <el-col :span="16">
+              <el-col :span="20">
                 <br/>
                 <div class="myName">Ruijia Chen</div>
                 <div id="introduction">
