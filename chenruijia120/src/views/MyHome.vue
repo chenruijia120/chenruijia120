@@ -32,8 +32,8 @@
                     Welcome!
                   </p>
                   <p class="paragraph">
-                    I am currently a first-year Ph.D. student at the University of Wisconsin-Madison. 
-                    Previously, I completed my B.E. at Tsinghua University, advised by Prof. Yuntao Wang.
+                    I am currently a first-year Ph.D. student in Computer Sciences at the University of Wisconsin-Madison. 
+                    Previously, I completed my B.E. in Computer Science at Tsinghua University, advised by Prof. Yuntao Wang.
                     <!-- <a href="https://pi.cs.tsinghua.edu.cn/" style='color:#9966CC' target="_blank">Pervasive Interaction Lab, Department of Computer Science, Tsinghua University</a>. -->
                   </p>
                   <p class="paragraph">
