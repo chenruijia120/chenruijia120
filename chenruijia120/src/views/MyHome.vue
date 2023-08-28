@@ -10,9 +10,9 @@
               <el-col :span="4">
                 <br/>
                 <el-row>
-                  <el-avatar :size="150" :src="avatarURL"></el-avatar>
+                  <el-avatar :size="200" :src="avatarURL"></el-avatar>
                 </el-row>
-                <el-row style="margin-top: 20px;">
+                <el-row style="margin-top: 20px;margin-left: 28px;">
                     <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                     <a href="mailto:ruijia.chen@wisc.edu" style='color:black'>
                       <i class="fa fa-envelope" style="font-size:22px;"></i>
@@ -23,7 +23,7 @@
                     </a>
                 </el-row>
               </el-col>
-              <el-col :span="19">
+              <el-col :span="16">
                 <br/>
                 <div class="myName">Ruijia Chen</div>
                 <div id="introduction">
