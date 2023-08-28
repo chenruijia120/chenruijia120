@@ -65,7 +65,7 @@
               </p>
               <el-divider></el-divider>
               <p class="research">
-                Research Assistant | Pervasive Interaction Lab, Department of Computer Science, Tsinghua University
+                Research Assistant | Pervasive Interaction Lab, Department of Computer Science and Technology, Tsinghua University
               </p>
               <p class="research-time">
                 December 2020 -- Present
