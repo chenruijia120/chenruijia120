@@ -32,12 +32,12 @@
                     Welcome!
                   </p>
                   <p class="paragraph">
-                    I am currently a first-year Ph.D. student in Computer Sciences at the University of Wisconsin-Madison. 
+                    I am currently a first-year Ph.D. student in Computer Science at the University of Wisconsin-Madison. 
                     Previously, I completed my B.E. in Computer Science at Tsinghua University, advised by Prof. Yuntao Wang.
                     <!-- <a href="https://pi.cs.tsinghua.edu.cn/" style='color:#9966CC' target="_blank">Pervasive Interaction Lab, Department of Computer Science, Tsinghua University</a>. -->
                   </p>
                   <p class="paragraph">
-                    My research interest lies in 
+                    My research interests lie in 
                     <span style='color:#660066;font-weight: bolder;'>Human-Computer Interaction</span>,
                     especially virtual/mixed reality.
                     <!-- I am applying for a PhD in Human-Computer Interaction for the entry of <span style='color:#660066;font-weight: bolder;'>2023 Fall</span> Semester. -->
