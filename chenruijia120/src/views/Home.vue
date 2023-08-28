@@ -165,7 +165,7 @@
       handleClick(tab, event) {
         console.log(tab.name, event);
         if(tab.name=='third'){
-          window.open("https://drive.google.com/file/d/1ZNpqcybm0ZdynIJbxDvCCWAYZIQu5hHD/view?usp=share_link", '_blank');
+          window.open("https://drive.google.com/file/d/14dZyYUAcoetLw7KEud2VPdeWXmdbszij/view?usp=sharing", '_blank');
           
           this.$set(this.activeNames, 'activeName', this.activeNames.lastActiveName);
           this.activeNames = Object.assign({}, this.activeNames, {
