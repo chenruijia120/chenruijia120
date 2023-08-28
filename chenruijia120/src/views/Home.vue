@@ -25,22 +25,22 @@
               </el-col>
               <el-col :span="19">
                 <br/>
-                <div class="myName">Ruijia Chen</div>
+                <div class="myName">Ruijia Chen 陈睿嘉</div>
                 <div id="introduction">
                   <br/>
                   <p class="paragraph">
                     Welcome!
                   </p>
                   <p class="paragraph">
-                    I am Ruijia Chen, a senior student in the Department of Computer Science and Technology at Tsinghua University. 
-                    I am currently working as a research assistant in the 
-                    <a href="https://pi.cs.tsinghua.edu.cn/" style='color:#9966CC' target="_blank">Pervasive Interaction Lab, Department of Computer Science, Tsinghua University</a>.
+                    I am Ruijia Chen. I am currently a first-year Ph.D. student at the University of Wisconsin-Madison. 
+                    Previously, I completed my B.S. at Tsinghua University, advised by Prof. Yuntao Wang.
+                    <!-- <a href="https://pi.cs.tsinghua.edu.cn/" style='color:#9966CC' target="_blank">Pervasive Interaction Lab, Department of Computer Science, Tsinghua University</a>. -->
                   </p>
                   <p class="paragraph">
                     My research interest lies in 
                     <span style='color:#660066;font-weight: bolder;'>Human-Computer Interaction</span>,
-                    at the intersection of virtual/mixed reality and human cognition.
-                    I am applying for a PhD in Human-Computer Interaction for the entry of <span style='color:#660066;font-weight: bolder;'>2023 Fall</span> Semester.
+                    especially virtual/mixed reality.
+                    <!-- I am applying for a PhD in Human-Computer Interaction for the entry of <span style='color:#660066;font-weight: bolder;'>2023 Fall</span> Semester. -->
                   </p>
                 </div>
               </el-col>
@@ -103,7 +103,7 @@
             </el-card>
             
             
-            <br/>
+            <!-- <br/>
             <h5 style="color: dimgrey; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;">
               Some Projects
             </h5>
@@ -111,7 +111,7 @@
               <p class="project-title">Cognitive Load Analysis in Target Selection</p>
               <el-col>
                 <p class="project-conference">In Revision</p>
-                <!-- <div style="margin-top:40px ;"></div> -->
+                 <div style="margin-top:40px ;"></div> 
                 <p class="project-content">
                   Fitts' Law is the most robust and successful behavioral model capturing the quantitative relationship between target selection time and target width and distance. We propose extending Fitts' Law by considering users' cognitive load as a human factor in target selection tasks. 
                   It can help support the adaptation of user interfaces in responding to users' cognitive load. We conducted a dual-task experiment with target selection as the primary task and two types of secondary tasks (math calculation and N-back). We changed the secondary task's difficulty to alter the user's perception of cognitive load while performing the primary task. 
@@ -127,7 +127,7 @@
               <p class="project-title">Smart Scrolling for Mobile Devices</p>
               <el-col>
                 <p class="project-conference">In Progress</p>
-                <!-- <div style="margin-top:40px ;"></div> -->
+                 <div style="margin-top:40px ;"></div> 
                 <p class="project-content">
                   We designed clutch-free techniques for list scrolling on smartphones to reach higher interaction efficiency and lower effort in the screen scrolling scenarios.
                   We utilized features including the size of fingers to determine the scrolling speed and managed to reduce finger dangling time.
@@ -135,9 +135,9 @@
                 </p>
                 <br/>
               </el-col>
-            </el-card>
-            <br/>
-            <br/>
+            </el-card> -->
+            <!-- <br/>
+            <br/> -->
           </el-tab-pane>
           <el-tab-pane label="CV" name="third"></el-tab-pane>
         </el-tabs>
