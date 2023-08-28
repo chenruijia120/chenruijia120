@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Home from "@/views/Home.vue";
+import MyHome from "@/views/MyHome.vue";
 
 Vue.use(VueRouter)
 const router = new VueRouter({
@@ -8,8 +8,8 @@ const router = new VueRouter({
   routes : [
     {
       path: '/',
-      name: 'Home',
-      component: Home,
+      name: 'MyHome',
+      component: MyHome,
         meta:{
             title:'Ruijia Chen'
         }
