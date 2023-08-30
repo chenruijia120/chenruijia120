@@ -6,12 +6,13 @@
       <el-main>
         <el-tabs v-bind:value="activeNames.activeName" :key="activeNames" @tab-click="handleClick">
           <el-tab-pane label="MyHome" name="first">
+            <div v-if="windowWidth>900">
             <el-row>
               <el-col :span="4">
                 <br/>
                 <el-row>
                   <!-- <el-image :src="avatarURL"></el-image> -->
-                  <el-avatar :size=windowWidth/8 :src="avatarURL"></el-avatar>
+                  <el-avatar :size=windowWidth/7 :src="avatarURL"></el-avatar>
                 </el-row>
                 <el-row id="icons">
                     <!-- <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -->
@@ -46,6 +47,47 @@
                 </div>
               </el-col>
             </el-row>
+            </div>
+            <div v-else>
+              <el-row>
+                <br/>
+                <el-row>
+                  <!-- <el-image :src="avatarURL"></el-image> -->
+                  <el-avatar :size="200" :src="avatarURL"></el-avatar>
+                </el-row>
+                <el-row id="icons">
+                    <!-- <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -->
+                    <a href="mailto:ruijia.chen@wisc.edu" style='color:black'>
+                      <i class="fa fa-envelope" id="email"></i>
+                    </a>
+                    <span>&nbsp;&nbsp;&nbsp;</span>
+                    <a href="https://github.com/chenruijia120" target="_blank" style='color:black' rel="noopener noreferrer">
+                      <i class="fa fa-github" id="github"></i>
+                    </a>
+                </el-row>
+              </el-row>
+              <el-row>
+                <br/>
+                <div class="myName">Ruijia Chen</div>
+                <div id="introduction">
+                  <br/>
+                  <p class="paragraph">
+                    Welcome!
+                  </p>
+                  <p class="paragraph">
+                    I am currently a first-year Ph.D. student in Computer Science at the University of Wisconsin-Madison. 
+                    Previously, I completed my B.E. in Computer Science at Tsinghua University, advised by Prof. Yuntao Wang.
+                    <!-- <a href="https://pi.cs.tsinghua.edu.cn/" style='color:#9966CC' target="_blank">Pervasive Interaction Lab, Department of Computer Science, Tsinghua University</a>. -->
+                  </p>
+                  <p class="paragraph">
+                    My research interests lie in 
+                    <span style='color:#660066;font-weight: bolder;'>Human-Computer Interaction</span>,
+                    especially virtual/mixed reality.
+                    <!-- I am applying for a PhD in Human-Computer Interaction for the entry of <span style='color:#660066;font-weight: bolder;'>2023 Fall</span> Semester. -->
+                  </p>
+                </div>
+            </el-row>
+            </div>
             <br/>
             <h5 id="experience-title">
               Research Experience
@@ -300,7 +342,7 @@
     font-size:26px;
   }
 
-  @media only screen and (max-width: 767px){
+  @media only screen and (max-width: 900px){
     #projects{
       padding-left: 5px;
       padding-right: 10px;
