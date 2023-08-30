@@ -10,16 +10,17 @@
               <el-col :span="4">
                 <br/>
                 <el-row>
-                  <el-avatar :size="200" :src="avatarURL"></el-avatar>
+                  <!-- <el-image :src="avatarURL"></el-image> -->
+                  <el-avatar :size=windowWidth/8 :src="avatarURL"></el-avatar>
                 </el-row>
-                <el-row style="margin-top: 20px;margin-left: 28px;">
-                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <el-row id="icons">
+                    <!-- <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -->
                     <a href="mailto:ruijia.chen@wisc.edu" style='color:black'>
-                      <i class="fa fa-envelope" style="font-size:22px;"></i>
+                      <i class="fa fa-envelope" id="email"></i>
                     </a>
                     <span>&nbsp;&nbsp;&nbsp;</span>
                     <a href="https://github.com/chenruijia120" target="_blank" style='color:black' rel="noopener noreferrer">
-                      <i class="fa fa-github" style="font-size:24px;"></i>
+                      <i class="fa fa-github" id="github"></i>
                     </a>
                 </el-row>
               </el-col>
@@ -46,10 +47,10 @@
               </el-col>
             </el-row>
             <br/>
-            <h5 style="margin-left: 50px;color: dimgrey; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;">
+            <h5 id="experience-title">
               Research Experience
             </h5>
-            <el-card class="box-card" style="margin-left: 50px;margin-right: 100px;">
+            <el-card class="box-card" id="experience">
               <p class="research">
                 2022 Mitacs Globalink Research Internship | Mitacs & University of British Columbia, Okanagan
               </p>
@@ -76,7 +77,7 @@
           </el-tab-pane>
 
 
-          <el-tab-pane label="Projects" name="second" style="padding-left: 50px;padding-right: 100px;">
+          <el-tab-pane label="Projects" name="second" id="projects">
             <h5 style="color: dimgrey; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;">
               Publications
             </h5>
@@ -158,7 +159,9 @@
           lastActiveName:'first',
         },
         avatarURL:require('@/assets/photo.jpg'),
-        srcIMWUT:require('@/assets/IMWUT2022.png')
+        srcIMWUT:require('@/assets/IMWUT2022.png'),
+        windowWidth: document.documentElement.clientWidth,  //实时屏幕宽度
+        windowHeight: document.documentElement.clientHeight,   //实时屏幕高度
       };
     },
     methods: {
@@ -181,7 +184,26 @@
       }
     },
     mounted(){
-
+      var that = this;
+        // <!--把window.onresize事件挂在到mounted函数上-->
+        window.onresize = () => {
+          return (() => {
+            window.fullHeight = document.documentElement.clientHeight;
+              window.fullWidth = document.documentElement.clientWidth;
+            that.windowHeight = window.fullHeight;  // 高
+            that.windowWidth = window.fullWidth; // 宽
+          })()
+        };
+    },
+    watch: {
+      windowHeight (val) {
+        let that = this;
+        console.log("实时屏幕高度：",val, that.windowHeight );
+      },
+      windowWidth (val) {
+        let that = this;
+        console.log("实时屏幕宽度：",val, that.windowHeight );
+      }
     },
   };
 </script>
@@ -249,4 +271,53 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: darkgray;
   }
+
+  #projects{
+    padding-left: 50px;
+    padding-right: 100px;
+  }
+
+  #experience{
+    margin-left: 50px;
+    margin-right: 100px;
+  }
+
+  #experience-title{
+    margin-left: 50px;
+    color: dimgrey; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  }
+
+  #icons{
+    /* margin-left: 0px; */
+    padding-left: 28%;
+  }
+
+  #email{
+    font-size:24px;
+  }
+  #github{
+    font-size:26px;
+  }
+
+  @media only screen and (max-width: 767px){
+    #projects{
+      padding-left: 5px;
+      padding-right: 10px;
+    }
+    #experience{
+      margin-left: 5px;
+      margin-right: 10px;
+    }
+    #icons{
+      /* margin-left: 0px; */
+      padding-left: 10%;
+    }
+    #experience-title{
+      margin-left: 10px;
+      color: dimgrey; 
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    }
+  }
+
 </style>
