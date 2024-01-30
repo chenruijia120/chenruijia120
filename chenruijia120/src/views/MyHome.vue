@@ -34,14 +34,14 @@
                     Welcome!
                   </p>
                   <p class="paragraph">
-                    I am currently a first-year Ph.D. student in Computer Science at the University of Wisconsin-Madison. 
-                    Previously, I completed my B.E. in Computer Science at Tsinghua University, advised by Prof. Yuntao Wang.
+                    I am currently a first-year Ph.D. student in Computer Science at the University of Wisconsin-Madison, advised by <a href="https://www.yuhangz.com/" style='color:#9966CC' target="_blank">Prof. Yuhang Zhao</a>. 
+                    Previously, I completed my B.E. in Computer Science at Tsinghua University, advised by <a href="https://pi.cs.tsinghua.edu.cn/lab/people/YuntaoWang/en/" style='color:#9966CC' target="_blank">Prof. Yuntao Wang</a>.
                     <!-- <a href="https://pi.cs.tsinghua.edu.cn/" style='color:#9966CC' target="_blank">Pervasive Interaction Lab, Department of Computer Science, Tsinghua University</a>. -->
                   </p>
                   <p class="paragraph">
-                    My research interests lie in 
-                    <span style='color:#660066;font-weight: bolder;'>Human-Computer Interaction</span>,
-                    especially virtual/mixed reality.
+                    My research interests lie in Human-Computer Interaction,
+                    especially 
+                    <span style='color:#660066;font-weight: bolder;'>Virtual/Augmented/Mixed Reality and Accessibility</span>.
                     <!-- I am applying for a PhD in Human-Computer Interaction for the entry of <span style='color:#660066;font-weight: bolder;'>2023 Fall</span> Semester. -->
                   </p>
                 </div>
@@ -75,24 +75,38 @@
                     Welcome!
                   </p>
                   <p class="paragraph">
-                    I am currently a first-year Ph.D. student in Computer Science at the University of Wisconsin-Madison. 
+                    I am currently a first-year Ph.D. student in Computer Science at the University of Wisconsin-Madison, advised by Prof. Yuhang Zhao. 
                     Previously, I completed my B.E. in Computer Science at Tsinghua University, advised by Prof. Yuntao Wang.
                     <!-- <a href="https://pi.cs.tsinghua.edu.cn/" style='color:#9966CC' target="_blank">Pervasive Interaction Lab, Department of Computer Science, Tsinghua University</a>. -->
                   </p>
                   <p class="paragraph">
                     My research interests lie in 
                     <span style='color:#660066;font-weight: bolder;'>Human-Computer Interaction</span>,
-                    especially virtual/mixed reality.
+                    especially virtual/augmented/mixed reality and accessibility.
                     <!-- I am applying for a PhD in Human-Computer Interaction for the entry of <span style='color:#660066;font-weight: bolder;'>2023 Fall</span> Semester. -->
                   </p>
                 </div>
             </el-row>
             </div>
             <br/>
-            <h5 id="experience-title">
-              Research Experience
+            <h5 id="experience-title" class="section">
+              Experience
             </h5>
             <el-card class="box-card" id="experience">
+              <p class="research">
+                Teaching Assistant for CS571 (Building User Interfaces) | University of Wisconsin-Madison
+              </p>
+              <p class="research-time">
+                August 2023 -- December 2023
+              </p>
+              <el-divider></el-divider>
+              <p class="research">
+                Research Assistant | Pervasive Interaction Lab, Department of Computer Science and Technology, Tsinghua University
+              </p>
+              <p class="research-time">
+                December 2020 -- August 2023
+              </p>
+              <el-divider></el-divider>
               <p class="research">
                 2022 Mitacs Globalink Research Internship | Mitacs & University of British Columbia, Okanagan
               </p>
@@ -106,27 +120,39 @@
               <p class="research-time">
                 June 2021 -- September 2021
               </p>
-              <el-divider></el-divider>
-              <p class="research">
-                Research Assistant | Pervasive Interaction Lab, Department of Computer Science and Technology, Tsinghua University
-              </p>
-              <p class="research-time">
-                December 2020 -- Present
-              </p>
             </el-card>
             <br/>
             <br/>
-          </el-tab-pane>
 
-
-          <el-tab-pane label="Projects" name="second" id="projects">
-            <h5 style="color: dimgrey; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;">
+            <h5 class="section" style="color: dimgrey; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;">
               Publications
             </h5>
-            <el-card class="box-card">
+            <el-card class="box-card" id="publications">
+              <p class="project-title">Exploring the Design Space of Optical See-through AR Head-Mounted Displays to Support First Responders in the Field</p>
+              <el-col :span="19">
+                <p class="project-conference">Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems (CHI '24)
+                  <!-- <span style="color:grey ;"><a href="https://drive.google.com/file/d/15q4QfytW2d1L4mXLL7pibFZL5xWQFNT-/view?usp=sharing" style="color:grey ;" target="_blank">[Video]</a></span> 
+                  <span style="color:grey ;">&ensp;<a href="https://arxiv.org/pdf/2204.12071.pdf" style="color:grey ;" target="_blank">[PDF]</a></span> -->
+                </p>
+                <p class="project-author">
+                  Kexin Zhang, Brianna R Cochran, <span style="font-weight:bolder;">Ruijia Chen</span>, Lance Hartung, Bryce Sprecher, Ross Tredinnick, Kevin Ponto, Suman Banerjee, Yuhang Zhao
+                </p>
+                <!-- <div style="margin-top:40px ;"></div> -->
+                <!-- <p class="project-content">
+                  We applied angular offsets to the avatar's shoulder and elbow joints, recorded users' responses and identifications to the inconsistency through a three-stage user studies, and built a statistical model based on the results. 
+                  Leveraging the model, we implemented a technique that amplifies the user's arm movements with unnoticeable offsets and then evaluated implementations with different parameters(offset strength, offset distribution). 
+                  We demonstrated the model's extendibility in interventions in the sense of body ownership with three VR applications including stroke rehabilitation, action game and widget arrangement.
+                </p> -->
+              </el-col>
+              <!-- <el-col :span="5">
+                <el-image :src="srcIMWUT"></el-image>
+              </el-col> -->
+            </el-card>
+            <br/>
+            <el-card class="box-card" id="publications">
               <p class="project-title">Modeling the Noticeability of User-Avatar Movement Inconsistency for Sense of Body Ownership Intervention</p>
               <el-col :span="19">
-                <p class="project-conference">IMWUT 2022&nbsp;&nbsp;&nbsp;
+                <p class="project-conference">Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT '22)&nbsp;&nbsp;&nbsp;
                   <span style="color:grey ;"><a href="https://drive.google.com/file/d/15q4QfytW2d1L4mXLL7pibFZL5xWQFNT-/view?usp=sharing" style="color:grey ;" target="_blank">[Video]</a></span> 
                   <span style="color:grey ;">&ensp;<a href="https://arxiv.org/pdf/2204.12071.pdf" style="color:grey ;" target="_blank">[PDF]</a></span>
                 </p>
@@ -144,6 +170,34 @@
                 <el-image :src="srcIMWUT"></el-image>
               </el-col>
             </el-card>
+
+          </el-tab-pane>
+
+
+          <!-- <el-tab-pane label="Projects" name="second" id="projects">
+            <h5 style="color: dimgrey; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;">
+              Publications
+            </h5>
+            <el-card class="box-card">
+              <p class="project-title">Modeling the Noticeability of User-Avatar Movement Inconsistency for Sense of Body Ownership Intervention</p>
+              <el-col :span="19">
+                <p class="project-conference">IMWUT 2022&nbsp;&nbsp;&nbsp;
+                  <span style="color:grey ;"><a href="https://drive.google.com/file/d/15q4QfytW2d1L4mXLL7pibFZL5xWQFNT-/view?usp=sharing" style="color:grey ;" target="_blank">[Video]</a></span> 
+                  <span style="color:grey ;">&ensp;<a href="https://arxiv.org/pdf/2204.12071.pdf" style="color:grey ;" target="_blank">[PDF]</a></span>
+                </p>
+                <p class="project-author">
+                  Zhipeng Li, Yu Jiang, Yihao Zhu, <span style="font-weight:bolder;">Ruijia Chen</span>, Ruolin Wang, Yuntao Wang, Yukang Yan, Yuanchun Shi
+                </p>
+                <p class="project-content">
+                  We applied angular offsets to the avatar's shoulder and elbow joints, recorded users' responses and identifications to the inconsistency through a three-stage user studies, and built a statistical model based on the results. 
+                  Leveraging the model, we implemented a technique that amplifies the user's arm movements with unnoticeable offsets and then evaluated implementations with different parameters(offset strength, offset distribution). 
+                  We demonstrated the model's extendibility in interventions in the sense of body ownership with three VR applications including stroke rehabilitation, action game and widget arrangement.
+                </p>
+              </el-col>
+              <el-col :span="5">
+                <el-image :src="srcIMWUT"></el-image>
+              </el-col>
+            </el-card> -->
             
             
             <!-- <br/>
@@ -181,7 +235,7 @@
             </el-card> -->
             <!-- <br/>
             <br/> -->
-          </el-tab-pane>
+          <!-- </el-tab-pane> -->
           <el-tab-pane label="CV" name="third"></el-tab-pane>
         </el-tabs>
       </el-main>
@@ -285,10 +339,12 @@
   .project-title{
     font-size: large;
     font-weight: bold;
+    margin-bottom: 0px;
   }
 
   .project-conference{
-    font-size: large;
+    font-size: medium;
+    color: grey;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
@@ -324,7 +380,19 @@
     margin-right: 100px;
   }
 
-  #experience-title{
+  
+  #publications{
+    margin-left: 50px;
+    margin-right: 100px;
+  }
+
+  /* #experience-title{
+    margin-left: 50px;
+    color: dimgrey; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  } */
+
+  .section{
     margin-left: 50px;
     color: dimgrey; 
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
@@ -351,11 +419,20 @@
       margin-left: 5px;
       margin-right: 10px;
     }
+    #publications{
+      margin-left: 5px;
+      margin-right: 10px;
+    }
     #icons{
       /* margin-left: 0px; */
       padding-left: 10%;
     }
-    #experience-title{
+    /* #experience-title{
+      margin-left: 10px;
+      color: dimgrey; 
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    } */
+    .section{
       margin-left: 10px;
       color: dimgrey; 
       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
