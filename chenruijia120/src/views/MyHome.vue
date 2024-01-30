@@ -31,7 +31,7 @@
                 <div id="introduction">
                   <br/>
                   <p class="paragraph">
-                    Welcome!
+                    Welcome! My name is Ruijia Chen, pronounced as ray-jar (in Chinese: 陈睿嘉).
                   </p>
                   <p class="paragraph">
                     I am currently a first-year Ph.D. student in Computer Science at the University of Wisconsin-Madison, advised by <a href="https://www.yuhangz.com/" style='color:#9966CC' target="_blank">Prof. Yuhang Zhao</a>. 
@@ -90,7 +90,7 @@
             </div>
             <br/>
             <h5 id="experience-title" class="section">
-              Experience
+              Experiences
             </h5>
             <el-card class="box-card" id="experience">
               <p class="research">
@@ -170,6 +170,8 @@
                 <el-image :src="srcIMWUT"></el-image>
               </el-col>
             </el-card>
+            <br/>
+            <br/>
 
           </el-tab-pane>
 
