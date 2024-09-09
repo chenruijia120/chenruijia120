@@ -34,14 +34,16 @@
                     Welcome! My name is Ruijia Chen, pronounced as ray-jar (in Chinese: 陈睿嘉).
                   </p>
                   <p class="paragraph">
-                    I am currently a first-year Ph.D. student in Computer Science at the University of Wisconsin-Madison, advised by <a href="https://www.yuhangz.com/" style='color:#9966CC' target="_blank">Prof. Yuhang Zhao</a>. 
+                    I am currently a second-year Ph.D. student in Computer Science at the University of Wisconsin-Madison, advised by <a href="https://www.yuhangz.com/" style='color:#9966CC' target="_blank">Prof. Yuhang Zhao</a>. 
                     Previously, I completed my B.E. in Computer Science at Tsinghua University, advised by <a href="https://pi.cs.tsinghua.edu.cn/lab/people/YuntaoWang/en/" style='color:#9966CC' target="_blank">Prof. Yuntao Wang</a>.
                     <!-- <a href="https://pi.cs.tsinghua.edu.cn/" style='color:#9966CC' target="_blank">Pervasive Interaction Lab, Department of Computer Science, Tsinghua University</a>. -->
                   </p>
                   <p class="paragraph">
                     My research interests lie in Human-Computer Interaction,
                     especially 
-                    <span style='color:#660066;font-weight: bolder;'>Virtual/Augmented/Mixed Reality and Accessibility</span>.
+                    <span style='color:#660066;font-weight: bolder;'>Virtual/Augmented/Mixed Reality and Accessibility</span>. 
+                    I design and develop AR technology to automatically recognize surrounding visual information that cannot be easily perceived by people with low vision, 
+                    and generate suitable multi-modal feedback to enhance their perceptual abilities in various daily tasks.
                     <!-- I am applying for a PhD in Human-Computer Interaction for the entry of <span style='color:#660066;font-weight: bolder;'>2023 Fall</span> Semester. -->
                   </p>
                 </div>
@@ -75,14 +77,16 @@
                     Welcome!
                   </p>
                   <p class="paragraph">
-                    I am currently a first-year Ph.D. student in Computer Science at the University of Wisconsin-Madison, advised by Prof. Yuhang Zhao. 
+                    I am currently a second-year Ph.D. student in Computer Science at the University of Wisconsin-Madison, advised by Prof. Yuhang Zhao. 
                     Previously, I completed my B.E. in Computer Science at Tsinghua University, advised by Prof. Yuntao Wang.
                     <!-- <a href="https://pi.cs.tsinghua.edu.cn/" style='color:#9966CC' target="_blank">Pervasive Interaction Lab, Department of Computer Science, Tsinghua University</a>. -->
                   </p>
                   <p class="paragraph">
                     My research interests lie in 
                     <span style='color:#660066;font-weight: bolder;'>Human-Computer Interaction</span>,
-                    especially virtual/augmented/mixed reality and accessibility.
+                    especially virtual/augmented/mixed reality and accessibility. 
+                    I design and develop AR technology to automatically recognize surrounding visual information that cannot be easily perceived by people with low vision, 
+                    and generate suitable multi-modal feedback to enhance their perceptual abilities in various daily tasks.
                     <!-- I am applying for a PhD in Human-Computer Interaction for the entry of <span style='color:#660066;font-weight: bolder;'>2023 Fall</span> Semester. -->
                   </p>
                 </div>
@@ -94,10 +98,17 @@
             </h5>
             <el-card class="box-card" id="experience">
               <p class="research">
+                Research Assistant | MadAbility Lab, University of Wisconsin-Madison
+              </p>
+              <p class="research-time">
+                August 2023 -- present
+              </p>
+              <el-divider></el-divider>
+              <p class="research">
                 Teaching Assistant for CS571 (Building User Interfaces) | University of Wisconsin-Madison
               </p>
               <p class="research-time">
-                August 2023 -- December 2023
+                August 2024 -- present, August 2023 -- December 2023
               </p>
               <el-divider></el-divider>
               <p class="research">
@@ -129,10 +140,9 @@
             </h5>
             <el-card class="box-card" id="publications">
               <p class="project-title">Exploring the Design Space of Optical See-through AR Head-Mounted Displays to Support First Responders in the Field</p>
-              <el-col :span="19">
+              <el-col :span="18">
                 <p class="project-conference">Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems (CHI '24)
-                  <!-- <span style="color:grey ;"><a href="https://drive.google.com/file/d/15q4QfytW2d1L4mXLL7pibFZL5xWQFNT-/view?usp=sharing" style="color:grey ;" target="_blank">[Video]</a></span> 
-                  <span style="color:grey ;">&ensp;<a href="https://arxiv.org/pdf/2204.12071.pdf" style="color:grey ;" target="_blank">[PDF]</a></span> -->
+                  <span style="color:grey ;">&ensp;<a href="https://dl.acm.org/doi/pdf/10.1145/3613904.3642195" style="color:grey ;" target="_blank">[PDF]</a></span>
                 </p>
                 <p class="project-author">
                   Kexin Zhang, Brianna R Cochran, <span style="font-weight:bolder;">Ruijia Chen</span>, Lance Hartung, Bryce Sprecher, Ross Tredinnick, Kevin Ponto, Suman Banerjee, Yuhang Zhao
@@ -144,9 +154,9 @@
                   We demonstrated the model's extendibility in interventions in the sense of body ownership with three VR applications including stroke rehabilitation, action game and widget arrangement.
                 </p> -->
               </el-col>
-              <!-- <el-col :span="5">
-                <el-image :src="srcIMWUT"></el-image>
-              </el-col> -->
+              <el-col :span="6">
+                <el-image :src="srcCHI24"></el-image>
+              </el-col>
             </el-card>
             <br/>
             <el-card class="box-card" id="publications">
@@ -154,7 +164,7 @@
               <el-col :span="19">
                 <p class="project-conference">Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT '22)&nbsp;&nbsp;&nbsp;
                   <span style="color:grey ;"><a href="https://drive.google.com/file/d/15q4QfytW2d1L4mXLL7pibFZL5xWQFNT-/view?usp=sharing" style="color:grey ;" target="_blank">[Video]</a></span> 
-                  <span style="color:grey ;">&ensp;<a href="https://arxiv.org/pdf/2204.12071.pdf" style="color:grey ;" target="_blank">[PDF]</a></span>
+                  <span style="color:grey ;">&ensp;<a href="https://dl.acm.org/doi/pdf/10.1145/3534590" style="color:grey ;" target="_blank">[PDF]</a></span>
                 </p>
                 <p class="project-author">
                   Zhipeng Li, Yu Jiang, Yihao Zhu, <span style="font-weight:bolder;">Ruijia Chen</span>, Ruolin Wang, Yuntao Wang, Yukang Yan, Yuanchun Shi
@@ -258,6 +268,7 @@
         },
         avatarURL:require('@/assets/photo.jpg'),
         srcIMWUT:require('@/assets/IMWUT2022.png'),
+        srcCHI24:require('@/assets/CHI2024.jpg'),
         windowWidth: document.documentElement.clientWidth,  //实时屏幕宽度
         windowHeight: document.documentElement.clientHeight,   //实时屏幕高度
       };
