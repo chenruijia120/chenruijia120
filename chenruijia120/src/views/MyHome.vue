@@ -149,12 +149,15 @@
                 <p class="project-author">
                   Kexin Zhang, Brianna R Cochran, <span style="font-weight:bolder;">Ruijia Chen</span>, Lance Hartung, Bryce Sprecher, Ross Tredinnick, Kevin Ponto, Suman Banerjee, Yuhang Zhao
                 </p>
-                <!-- <div style="margin-top:40px ;"></div> -->
-                <!-- <p class="project-content">
-                  We applied angular offsets to the avatar's shoulder and elbow joints, recorded users' responses and identifications to the inconsistency through a three-stage user studies, and built a statistical model based on the results. 
-                  Leveraging the model, we implemented a technique that amplifies the user's arm movements with unnoticeable offsets and then evaluated implementations with different parameters(offset strength, offset distribution). 
-                  We demonstrated the model's extendibility in interventions in the sense of body ownership with three VR applications including stroke rehabilitation, action game and widget arrangement.
-                </p> -->
+                <div style="margin-top:40px ;"></div>
+                <p class="project-content">
+                  First responders (FRs) navigate hazardous, unfamiliar environments in the field (e.g., mass-casualty incidents), 
+                  making life-changing decisions in a split second. AR head-mounted displays (HMDs) have shown promise in supporting them due to its capability of recognizing and augmenting the challenging environments in a hands-free manner. However, the design space have not been thoroughly explored by involving various FRs who serve different roles (e.g., firefighters, law enforcement) but collaborate closely in the field. 
+                  We interviewed 26 first responders in the field who experienced a state-of-the-art optical-see-through AR HMD, 
+                  as well as its interaction techniques and four types of AR cues (i.e., overview cues, directional cues, highlighting cues, and labeling cues), soliciting their first-hand experiences, design ideas, and concerns. 
+                  Our study revealed both generic and role-specific preferences and needs for AR hardware, interactions, and feedback, as well as identifying desired AR designs tailored to urgent, risky scenarios (e.g., affordance augmentation to facilitate fast and safe action). While acknowledging the value of AR HMDs, concerns were also raised around trust, privacy, and proper integration with other equipment. 
+                  Finally, we derived comprehensive and actionable design guidelines to inform future AR systems for in-field FRs.
+                </p>
               </el-col>
               <el-col :span="6">
                 <el-image :src="srcCHI24"></el-image>
