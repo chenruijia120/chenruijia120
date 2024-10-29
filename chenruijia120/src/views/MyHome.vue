@@ -39,9 +39,10 @@
                     <!-- <a href="https://pi.cs.tsinghua.edu.cn/" style='color:#9966CC' target="_blank">Pervasive Interaction Lab, Department of Computer Science, Tsinghua University</a>. -->
                   </p>
                   <p class="paragraph">
-                    My research interests lie in Human-Computer Interaction,
+                    My research interests lie in 
+                    <span style='color:#660066;font-weight: bolder;'>Human-Computer Interaction</span>,
                     especially 
-                    <span style='color:#660066;font-weight: bolder;'>Virtual/Augmented/Mixed Reality and Accessibility</span>. 
+                    <span style='color:#660066;font-weight: bolder;'>augmented reality and accessibility</span>. 
                     I design and develop AR technology to automatically recognize surrounding visual information that cannot be easily perceived by people with low vision, 
                     and generate suitable multi-modal feedback to enhance their perceptual abilities in various daily tasks.
                     <!-- I am applying for a PhD in Human-Computer Interaction for the entry of <span style='color:#660066;font-weight: bolder;'>2023 Fall</span> Semester. -->
@@ -74,17 +75,18 @@
                 <div id="introduction">
                   <br/>
                   <p class="paragraph">
-                    Welcome!
+                    Welcome! My name is Ruijia Chen, pronounced as ray-jar (in Chinese: 陈睿嘉).
                   </p>
                   <p class="paragraph">
-                    I am currently a second-year Ph.D. student in Computer Science at the University of Wisconsin-Madison, advised by Prof. Yuhang Zhao. 
-                    Previously, I completed my B.E. in Computer Science at Tsinghua University, advised by Prof. Yuntao Wang.
+                    I am currently a second-year Ph.D. student in Computer Science at the University of Wisconsin-Madison, advised by <a href="https://www.yuhangz.com/" style='color:#9966CC' target="_blank">Prof. Yuhang Zhao</a>. 
+                    Previously, I completed my B.E. in Computer Science at Tsinghua University, advised by <a href="https://pi.cs.tsinghua.edu.cn/lab/people/YuntaoWang/en/" style='color:#9966CC' target="_blank">Prof. Yuntao Wang</a>.
                     <!-- <a href="https://pi.cs.tsinghua.edu.cn/" style='color:#9966CC' target="_blank">Pervasive Interaction Lab, Department of Computer Science, Tsinghua University</a>. -->
                   </p>
                   <p class="paragraph">
                     My research interests lie in 
                     <span style='color:#660066;font-weight: bolder;'>Human-Computer Interaction</span>,
-                    especially virtual/augmented/mixed reality and accessibility. 
+                    especially 
+                    <span style='color:#660066;font-weight: bolder;'>augmented reality and accessibility</span>. 
                     I design and develop AR technology to automatically recognize surrounding visual information that cannot be easily perceived by people with low vision, 
                     and generate suitable multi-modal feedback to enhance their perceptual abilities in various daily tasks.
                     <!-- I am applying for a PhD in Human-Computer Interaction for the entry of <span style='color:#660066;font-weight: bolder;'>2023 Fall</span> Semester. -->
@@ -119,7 +121,7 @@
               </p>
               <el-divider></el-divider>
               <p class="research">
-                2022 Mitacs Globalink Research Internship | Mitacs & University of British Columbia, Okanagan
+                Research Assistant | University of British Columbia, Okanagan
               </p>
               <p class="research-time">
                 June 2022 -- September 2022
