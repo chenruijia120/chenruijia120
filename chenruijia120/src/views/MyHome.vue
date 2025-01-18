@@ -52,7 +52,7 @@
                     and generate suitable multi-modal feedback to enhance their perceptual abilities in various daily tasks.
                   </p>
                   <p class="paragraph">
-                    <span style='color:var(--primary-color);font-weight: bolder;'>Looking for research internship for Summer 2025!</span>. 
+                    <span style='color:var(--primary-color);font-weight: bolder;'>Looking for research internship for Summer 2025!</span>
                   </p>
                 </div>
                 </el-col>
