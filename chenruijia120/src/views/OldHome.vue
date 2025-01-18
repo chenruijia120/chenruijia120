@@ -1,0 +1,460 @@
+<template>
+    <div class="main" id="MyHome">
+      
+<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+      <el-container>
+      <el-main>
+        <el-tabs v-bind:value="activeNames.activeName" :key="activeNames" @tab-click="handleClick">
+          <el-tab-pane label="MyHome" name="first">
+            <div v-if="windowWidth>900">
+            <el-row>
+              <el-col :span="4">
+                <br/>
+                <el-row>
+                  <!-- <el-image :src="avatarURL"></el-image> -->
+                  <el-avatar :size=windowWidth/7 :src="avatarURL"></el-avatar>
+                </el-row>
+                <el-row id="icons">
+                    <!-- <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -->
+                    <a href="mailto:ruijia.chen@wisc.edu" style='color:black'>
+                      <i class="fa fa-envelope" id="email"></i>
+                    </a>
+                    <span>&nbsp;&nbsp;&nbsp;</span>
+                    <a href="https://github.com/chenruijia120" target="_blank" style='color:black' rel="noopener noreferrer">
+                      <i class="fa fa-github" id="github"></i>
+                    </a>
+                </el-row>
+              </el-col>
+              <el-col :span="20">
+                <br/>
+                <div class="myName">Ruijia Chen</div>
+                <div id="introduction">
+                  <br/>
+                  <p class="paragraph">
+                    Welcome! My name is Ruijia Chen, pronounced as ray-jar (in Chinese: 陈睿嘉).
+                  </p>
+                  <p class="paragraph">
+                    I am currently a second-year Ph.D. student in Computer Science at the University of Wisconsin-Madison, advised by <a href="https://www.yuhangz.com/" style='color:#9966CC' target="_blank">Prof. Yuhang Zhao</a>. 
+                    Previously, I completed my B.E. in Computer Science at Tsinghua University, advised by <a href="https://pi.cs.tsinghua.edu.cn/lab/people/YuntaoWang/en/" style='color:#9966CC' target="_blank">Prof. Yuntao Wang</a>.
+                    <!-- <a href="https://pi.cs.tsinghua.edu.cn/" style='color:#9966CC' target="_blank">Pervasive Interaction Lab, Department of Computer Science, Tsinghua University</a>. -->
+                  </p>
+                  <p class="paragraph">
+                    My research interests lie in 
+                    <span style='color:#660066;font-weight: bolder;'>Human-Computer Interaction</span>,
+                    especially 
+                    <span style='color:#660066;font-weight: bolder;'>augmented reality and accessibility</span>. 
+                    I design and develop AR technology to automatically recognize surrounding visual information that cannot be easily perceived by people with low vision, 
+                    and generate suitable multi-modal feedback to enhance their perceptual abilities in various daily tasks.
+                    <!-- I am applying for a PhD in Human-Computer Interaction for the entry of <span style='color:#660066;font-weight: bolder;'>2023 Fall</span> Semester. -->
+                  </p>
+                </div>
+              </el-col>
+            </el-row>
+            </div>
+            <div v-else>
+              <el-row>
+                <br/>
+                <el-row>
+                  <!-- <el-image :src="avatarURL"></el-image> -->
+                  <el-avatar :size="200" :src="avatarURL"></el-avatar>
+                </el-row>
+                <el-row id="icons">
+                    <!-- <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -->
+                    <a href="mailto:ruijia.chen@wisc.edu" style='color:black'>
+                      <i class="fa fa-envelope" id="email"></i>
+                    </a>
+                    <span>&nbsp;&nbsp;&nbsp;</span>
+                    <a href="https://github.com/chenruijia120" target="_blank" style='color:black' rel="noopener noreferrer">
+                      <i class="fa fa-github" id="github"></i>
+                    </a>
+                </el-row>
+              </el-row>
+              <el-row>
+                <br/>
+                <div class="myName">Ruijia Chen</div>
+                <div id="introduction">
+                  <br/>
+                  <p class="paragraph">
+                    Welcome! My name is Ruijia Chen, pronounced as ray-jar (in Chinese: 陈睿嘉).
+                  </p>
+                  <p class="paragraph">
+                    I am currently a second-year Ph.D. student in Computer Science at the University of Wisconsin-Madison, advised by <a href="https://www.yuhangz.com/" style='color:#9966CC' target="_blank">Prof. Yuhang Zhao</a>. 
+                    Previously, I completed my B.E. in Computer Science at Tsinghua University, advised by <a href="https://pi.cs.tsinghua.edu.cn/lab/people/YuntaoWang/en/" style='color:#9966CC' target="_blank">Prof. Yuntao Wang</a>.
+                    <!-- <a href="https://pi.cs.tsinghua.edu.cn/" style='color:#9966CC' target="_blank">Pervasive Interaction Lab, Department of Computer Science, Tsinghua University</a>. -->
+                  </p>
+                  <p class="paragraph">
+                    My research interests lie in 
+                    <span style='color:#660066;font-weight: bolder;'>Human-Computer Interaction</span>,
+                    especially 
+                    <span style='color:#660066;font-weight: bolder;'>augmented reality and accessibility</span>. 
+                    I design and develop AR technology to automatically recognize surrounding visual information that cannot be easily perceived by people with low vision, 
+                    and generate suitable multi-modal feedback to enhance their perceptual abilities in various daily tasks.
+                    <!-- I am applying for a PhD in Human-Computer Interaction for the entry of <span style='color:#660066;font-weight: bolder;'>2023 Fall</span> Semester. -->
+                  </p>
+                </div>
+            </el-row>
+            </div>
+            <br/>
+            <h5 id="experience-title" class="section">
+              Experiences
+            </h5>
+            <el-card class="box-card" id="experience">
+              <p class="research">
+                Research Assistant | MadAbility Lab, University of Wisconsin-Madison
+              </p>
+              <p class="research-time">
+                August 2023 -- present
+              </p>
+              <el-divider></el-divider>
+              <p class="research">
+                Teaching Assistant for CS571 (Building User Interfaces) | University of Wisconsin-Madison
+              </p>
+              <p class="research-time">
+                August 2024 -- present, August 2023 -- December 2023
+              </p>
+              <el-divider></el-divider>
+              <p class="research">
+                Research Assistant | Pervasive Interaction Lab, Department of Computer Science and Technology, Tsinghua University
+              </p>
+              <p class="research-time">
+                December 2020 -- August 2023
+              </p>
+              <el-divider></el-divider>
+              <p class="research">
+                Research Assistant | University of British Columbia, Okanagan
+              </p>
+              <p class="research-time">
+                June 2022 -- September 2022
+              </p>
+              <el-divider></el-divider>
+              <p class="research">
+                2021 Access Computing Summer Program | University of Washington & Tsinghua University & Microsoft
+              </p>
+              <p class="research-time">
+                June 2021 -- September 2021
+              </p>
+            </el-card>
+            <br/>
+            <br/>
+
+            <h5 class="section" style="color: dimgrey; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;">
+              Publications
+            </h5>
+            <el-card class="box-card" id="publications">
+              <p class="project-title">Exploring the Design Space of Optical See-through AR Head-Mounted Displays to Support First Responders in the Field</p>
+              <el-col :span="18">
+                <p class="project-conference">Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems (CHI '24)
+                  <span style="color:grey ;">&ensp;<a href="https://dl.acm.org/doi/pdf/10.1145/3613904.3642195" style="color:grey ;" target="_blank">[PDF]</a></span>
+                </p>
+                <p class="project-author">
+                  Kexin Zhang, Brianna R Cochran, <span style="font-weight:bolder;">Ruijia Chen</span>, Lance Hartung, Bryce Sprecher, Ross Tredinnick, Kevin Ponto, Suman Banerjee, Yuhang Zhao
+                </p>
+                <div style="margin-top:40px ;"></div>
+                <p class="project-content">
+                  First responders (FRs) navigate hazardous, unfamiliar environments in the field (e.g., mass-casualty incidents), 
+                  making life-changing decisions in a split second. AR head-mounted displays (HMDs) have shown promise in supporting them due to its capability of recognizing and augmenting the challenging environments in a hands-free manner. However, the design space have not been thoroughly explored by involving various FRs who serve different roles (e.g., firefighters, law enforcement) but collaborate closely in the field. 
+                  We interviewed 26 first responders in the field who experienced a state-of-the-art optical-see-through AR HMD, 
+                  as well as its interaction techniques and four types of AR cues (i.e., overview cues, directional cues, highlighting cues, and labeling cues), soliciting their first-hand experiences, design ideas, and concerns. 
+                  Our study revealed both generic and role-specific preferences and needs for AR hardware, interactions, and feedback, as well as identifying desired AR designs tailored to urgent, risky scenarios (e.g., affordance augmentation to facilitate fast and safe action). While acknowledging the value of AR HMDs, concerns were also raised around trust, privacy, and proper integration with other equipment. 
+                  Finally, we derived comprehensive and actionable design guidelines to inform future AR systems for in-field FRs.
+                </p>
+              </el-col>
+              <el-col :span="6">
+                <el-image :src="srcCHI24"></el-image>
+              </el-col>
+            </el-card>
+            <br/>
+            <el-card class="box-card" id="publications">
+              <p class="project-title">Modeling the Noticeability of User-Avatar Movement Inconsistency for Sense of Body Ownership Intervention</p>
+              <el-col :span="19">
+                <p class="project-conference">Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT '22)&nbsp;&nbsp;&nbsp;
+                  <span style="color:grey ;"><a href="https://drive.google.com/file/d/15q4QfytW2d1L4mXLL7pibFZL5xWQFNT-/view?usp=sharing" style="color:grey ;" target="_blank">[Video]</a></span> 
+                  <span style="color:grey ;">&ensp;<a href="https://dl.acm.org/doi/pdf/10.1145/3534590" style="color:grey ;" target="_blank">[PDF]</a></span>
+                </p>
+                <p class="project-author">
+                  Zhipeng Li, Yu Jiang, Yihao Zhu, <span style="font-weight:bolder;">Ruijia Chen</span>, Ruolin Wang, Yuntao Wang, Yukang Yan, Yuanchun Shi
+                </p>
+                <!-- <div style="margin-top:40px ;"></div> -->
+                <p class="project-content">
+                  We applied angular offsets to the avatar's shoulder and elbow joints, recorded users' responses and identifications to the inconsistency through a three-stage user studies, and built a statistical model based on the results. 
+                  Leveraging the model, we implemented a technique that amplifies the user's arm movements with unnoticeable offsets and then evaluated implementations with different parameters(offset strength, offset distribution). 
+                  We demonstrated the model's extendibility in interventions in the sense of body ownership with three VR applications including stroke rehabilitation, action game and widget arrangement.
+                </p>
+              </el-col>
+              <el-col :span="5">
+                <el-image :src="srcIMWUT"></el-image>
+              </el-col>
+            </el-card>
+            <br/>
+            <br/>
+
+          </el-tab-pane>
+
+
+          <!-- <el-tab-pane label="Projects" name="second" id="projects">
+            <h5 style="color: dimgrey; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;">
+              Publications
+            </h5>
+            <el-card class="box-card">
+              <p class="project-title">Modeling the Noticeability of User-Avatar Movement Inconsistency for Sense of Body Ownership Intervention</p>
+              <el-col :span="19">
+                <p class="project-conference">IMWUT 2022&nbsp;&nbsp;&nbsp;
+                  <span style="color:grey ;"><a href="https://drive.google.com/file/d/15q4QfytW2d1L4mXLL7pibFZL5xWQFNT-/view?usp=sharing" style="color:grey ;" target="_blank">[Video]</a></span> 
+                  <span style="color:grey ;">&ensp;<a href="https://arxiv.org/pdf/2204.12071.pdf" style="color:grey ;" target="_blank">[PDF]</a></span>
+                </p>
+                <p class="project-author">
+                  Zhipeng Li, Yu Jiang, Yihao Zhu, <span style="font-weight:bolder;">Ruijia Chen</span>, Ruolin Wang, Yuntao Wang, Yukang Yan, Yuanchun Shi
+                </p>
+                <p class="project-content">
+                  We applied angular offsets to the avatar's shoulder and elbow joints, recorded users' responses and identifications to the inconsistency through a three-stage user studies, and built a statistical model based on the results. 
+                  Leveraging the model, we implemented a technique that amplifies the user's arm movements with unnoticeable offsets and then evaluated implementations with different parameters(offset strength, offset distribution). 
+                  We demonstrated the model's extendibility in interventions in the sense of body ownership with three VR applications including stroke rehabilitation, action game and widget arrangement.
+                </p>
+              </el-col>
+              <el-col :span="5">
+                <el-image :src="srcIMWUT"></el-image>
+              </el-col>
+            </el-card> -->
+            
+            
+            <!-- <br/>
+            <h5 style="color: dimgrey; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;">
+              Some Projects
+            </h5>
+            <el-card class="box-card">
+              <p class="project-title">Cognitive Load Analysis in Target Selection</p>
+              <el-col>
+                <p class="project-conference">In Revision</p>
+                 <div style="margin-top:40px ;"></div> 
+                <p class="project-content">
+                  Fitts' Law is the most robust and successful behavioral model capturing the quantitative relationship between target selection time and target width and distance. We propose extending Fitts' Law by considering users' cognitive load as a human factor in target selection tasks. 
+                  It can help support the adaptation of user interfaces in responding to users' cognitive load. We conducted a dual-task experiment with target selection as the primary task and two types of secondary tasks (math calculation and N-back). We changed the secondary task's difficulty to alter the user's perception of cognitive load while performing the primary task. 
+                  We recorded completion time and subjective ratings (SR), with which we built an extension of Fitts' Law: MT=a*log<sub>2</sub>(A/W+1)+b*ln(SR)+c. 
+                  Compared to standard Fitts' Law fitting with R<sup>2</sup>=0.62, our model with R<sup>2</sup>= 0.87 describes the relationship between motion time and ID under different cognitive loads much better. 
+                  We aim to provide extendable guidance on designing and developing adaptive interfaces with the proposed formula.
+                </p>
+                <br/>
+              </el-col>
+            </el-card>
+            <br/>
+            <el-card class="box-card">
+              <p class="project-title">Smart Scrolling for Mobile Devices</p>
+              <el-col>
+                <p class="project-conference">In Progress</p>
+                 <div style="margin-top:40px ;"></div> 
+                <p class="project-content">
+                  We designed clutch-free techniques for list scrolling on smartphones to reach higher interaction efficiency and lower effort in the screen scrolling scenarios.
+                  We utilized features including the size of fingers to determine the scrolling speed and managed to reduce finger dangling time.
+                  We plan to validate the design by conducting a controlled experiment considering phone book item location tasks.
+                </p>
+                <br/>
+              </el-col>
+            </el-card> -->
+            <!-- <br/>
+            <br/> -->
+          <!-- </el-tab-pane> -->
+          <el-tab-pane label="CV" name="third"></el-tab-pane>
+        </el-tabs>
+      </el-main>
+      
+      <el-backtop :right="100" :bottom="100" />
+    </el-container>
+    </div>
+</template>
+
+<script>
+  export default {
+    name:"MyHome",
+    data() {
+      return {
+        activeNames:{
+          activeName: 'first',
+          lastActiveName:'first',
+        },
+        avatarURL:require('@/assets/photo.jpg'),
+        srcIMWUT:require('@/assets/IMWUT2022.png'),
+        srcCHI24:require('@/assets/CHI2024.jpg'),
+        windowWidth: document.documentElement.clientWidth,  //实时屏幕宽度
+        windowHeight: document.documentElement.clientHeight,   //实时屏幕高度
+      };
+    },
+    methods: {
+      handleClick(tab, event) {
+        console.log(tab.name, event);
+        if(tab.name=='third'){
+          window.open("https://drive.google.com/file/d/11cAWXHRW2KdKBYTmvCHM6iibuO_TeQDV/view?usp=drive_link", '_blank');
+          
+          this.$set(this.activeNames, 'activeName', this.activeNames.lastActiveName);
+          this.activeNames = Object.assign({}, this.activeNames, {
+            activeName: this.activeNames.lastActiveName,
+            lastActiveName: this.activeNames.lastActiveName
+          })
+        }
+        else{
+          console.log(this.lastActiveName,this.activeName);
+          this.activeNames.lastActiveName = tab.name; 
+        }
+        console.log(this.activeNames.lastActiveName,this.activeNames.activeName);
+      }
+    },
+    mounted(){
+      var that = this;
+        // <!--把window.onresize事件挂在到mounted函数上-->
+        window.onresize = () => {
+          return (() => {
+            window.fullHeight = document.documentElement.clientHeight;
+              window.fullWidth = document.documentElement.clientWidth;
+            that.windowHeight = window.fullHeight;  // 高
+            that.windowWidth = window.fullWidth; // 宽
+          })()
+        };
+    },
+    watch: {
+      windowHeight (val) {
+        let that = this;
+        console.log("实时屏幕高度：",val, that.windowHeight );
+      },
+      windowWidth (val) {
+        let that = this;
+        console.log("实时屏幕宽度：",val, that.windowHeight );
+      }
+    },
+  };
+</script>
+
+<style>
+  .el-container{
+    height:100%;
+  }
+
+  #MyHome {
+    height: 100%;
+  }
+
+  .el-tabs{
+    padding-left:15px;
+    padding-right:15px;
+    /* text-align: center; */
+    font-size: 30px;
+  }
+
+  .myName{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family:MYFONT;
+  }
+
+  #introduction{
+    padding-right: 60px;
+    font-size: medium;
+  }
+
+  .paragraph{
+    margin-bottom: 20px;
+    color:darkslategrey;
+  }
+
+  .project-title{
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+
+  .project-conference{
+    font-size: medium;
+    color: grey;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .project-content{
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+
+  .project-author{
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .research{
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .research-time{
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkgray;
+  }
+
+  #projects{
+    padding-left: 50px;
+    padding-right: 100px;
+  }
+
+  #experience{
+    margin-left: 50px;
+    margin-right: 100px;
+  }
+
+  
+  #publications{
+    margin-left: 50px;
+    margin-right: 100px;
+  }
+
+  /* #experience-title{
+    margin-left: 50px;
+    color: dimgrey; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  } */
+
+  .section{
+    margin-left: 50px;
+    color: dimgrey; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  }
+
+  #icons{
+    /* margin-left: 0px; */
+    padding-left: 28%;
+  }
+
+  #email{
+    font-size:24px;
+  }
+  #github{
+    font-size:26px;
+  }
+
+  @media only screen and (max-width: 900px){
+    #projects{
+      padding-left: 5px;
+      padding-right: 10px;
+    }
+    #experience{
+      margin-left: 5px;
+      margin-right: 10px;
+    }
+    #publications{
+      margin-left: 5px;
+      margin-right: 10px;
+    }
+    #icons{
+      /* margin-left: 0px; */
+      padding-left: 10%;
+    }
+    /* #experience-title{
+      margin-left: 10px;
+      color: dimgrey; 
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    } */
+    .section{
+      margin-left: 10px;
+      color: dimgrey; 
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    }
+  }
+
+</style>
