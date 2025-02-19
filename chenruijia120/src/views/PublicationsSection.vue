@@ -7,8 +7,9 @@
               <p class="project-title">VisiMark： Characterizing and Augmenting Landmarks for People with Low Vision in Augmented Reality to Support Indoor Navigation</p>
               <el-col :span="18">
               <!-- <p class="project-title">VisiMark: Characterizing and Augmenting Landmarks for People with Low Vision in Augmented Reality to Support Indoor Navigation</p> -->
-              
-                <p class="project-conference">Accepted by CHI '25
+                
+                <p class="project-conference">Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25)
+                  <span style="color:grey ;">&ensp;<a href="https://arxiv.org/pdf/2502.10561" style="color:grey ;" target="_blank">[PDF]</a></span>
                 </p>
                 <p class="project-author">
                   <span style="font-weight:bolder; text-decoration: underline;">Ruijia Chen</span>, Junru Jiang, Pragati Maheshwary, Brianna R Cochran, Yuhang Zhao
@@ -30,7 +31,8 @@
               <el-col :span="18">
               <p class="project-title">Modelling Effects of Visual Attention on Noticeability of Body-Avatar Offsets in Virtual Reality</p>
               
-                <p class="project-conference">Accepted by CHI '25
+              <p class="project-conference">Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25)
+                  <!-- <span style="color:grey ;">&ensp;<a href="https://arxiv.org/pdf/2502.10561" style="color:grey ;" target="_blank">[PDF]</a></span> -->
                 </p>
                 <p class="project-author">
                   Zhipeng Li, Yishu Ji, <span style="font-weight:bolder; text-decoration: underline;">Ruijia Chen</span>, Tianqi Liu, Yuntao Wang, Yuanchun Shi, Yukang Yan
